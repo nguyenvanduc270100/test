@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by Nguyễn Thành Vinh on 8/19/22, 2:33 PM
+  ~     ntvtht1204@gmail.com
+  ~     Last modified 8/19/22, 2:33 PM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#CFF7D9"
+    >
+    <item android:drawable="@drawable/button_normal"/>
+</ripple>

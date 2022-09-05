@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by Nguyễn Thành Vinh on 8/8/22, 2:45 PM
+  ~     ntvtht1204@gmail.com
+  ~     Last modified 8/8/22, 2:45 PM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorBackgroundSubs"/>
+    <corners android:radius="@dimen/_8sdp"/>
+</shape>

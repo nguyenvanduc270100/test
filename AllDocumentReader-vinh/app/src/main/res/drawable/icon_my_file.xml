@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by Nguyễn Thành Vinh on 8/8/22, 10:32 AM
+  ~     ntvtht1204@gmail.com
+  ~     Last modified 8/8/22, 10:32 AM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false"
+        android:drawable="@drawable/ic_file_non_select"/>
+    <item android:state_selected="true"
+        android:drawable="@drawable/ic_my_file"/>
+</selector>

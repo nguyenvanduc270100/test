@@ -1,0 +1,18 @@
+<!--
+  ~  Created by Nguyễn Thành Vinh on 8/8/22, 12:52 PM
+  ~     ntvtht1204@gmail.com
+  ~     Last modified 8/8/22, 12:52 PM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="12"
+    android:viewportHeight="12">
+  <path
+      android:pathData="M7.59,8.297C5.823,9.712 3.237,9.601 1.599,7.963C-0.158,6.206 -0.158,3.356 1.599,1.599C3.356,-0.158 6.206,-0.158 7.963,1.599C9.601,3.237 9.712,5.823 8.297,7.59L11.734,11.027C11.929,11.222 11.929,11.539 11.734,11.734C11.539,11.929 11.222,11.929 11.027,11.734L7.59,8.297ZM2.306,7.256C0.939,5.889 0.939,3.673 2.306,2.306C3.673,0.939 5.889,0.939 7.256,2.306C8.622,3.672 8.623,5.886 7.259,7.253C7.258,7.254 7.257,7.255 7.256,7.256C7.255,7.257 7.254,7.258 7.253,7.259C5.886,8.623 3.672,8.622 2.306,7.256Z"
+      android:fillColor="#0C0C0D"
+      android:fillType="evenOdd"/>
+</vector>

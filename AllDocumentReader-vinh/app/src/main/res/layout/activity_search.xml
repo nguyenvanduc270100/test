@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Created by Nguyễn Thành Vinh on 8/27/22, 8:39 PM
+  ~     ntvtht1204@gmail.com
+  ~     Last modified 8/27/22, 8:39 PM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.SearchActivity">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorIcon"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <SearchView
+                android:id="@+id/search"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintHorizontal_weight="5"
+                android:queryBackground="@android:color/transparent"
+                android:iconifiedByDefault="false"
+                android:background="@drawable/background_search_view"
+                android:theme="@style/ColorCursorSearchView"
+                android:searchIcon="@drawable/ic_search"
+                android:queryHint="File Search"
+                android:layout_marginStart="@dimen/_16sdp"
+                app:layout_constraintTop_toTopOf="@id/layout_actionbar"
+                app:layout_constraintStart_toStartOf="@id/layout_actionbar"
+                app:layout_constraintEnd_toStartOf="@id/iv_close"
+                app:layout_constraintBottom_toBottomOf="@id/layout_actionbar"
+                />
+            <ImageButton
+                android:id="@+id/iv_close"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/ic_close"
+                android:background="?attr/selectableItemBackground"
+                app:layout_constraintHorizontal_weight="1"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/search"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_file"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_actionbar"
+            tools:listitem="@layout/item_file" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

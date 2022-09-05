@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by Nguyễn Thành Vinh on 8/24/22, 1:02 PM
+  ~     ntvtht1204@gmail.com
+  ~     Last modified 8/24/22, 1:02 PM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_my_file"
+        android:title="@string/rename"
+        android:icon="@drawable/ic_rename"/>
+    <item android:id="@+id/menu_recent"
+        android:title="@string/go_page"
+        android:icon="@drawable/ic_go_page"/>
+    <item android:id="@+id/menu_favorite"
+        android:title="@string/screen"
+        android:icon="@drawable/ic_screenshot"/>
+    <item android:id="@+id/menu_settings"
+        android:title="@string/print"
+        android:icon="@drawable/ic_favorite"/>
+</menu>

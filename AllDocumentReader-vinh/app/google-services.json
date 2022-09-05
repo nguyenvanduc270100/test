@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943295219937",
+    "project_id": "all-document-5aab0",
+    "storage_bucket": "all-document-5aab0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943295219937:android:2dcb3c52479ca3d8014fa0",
+        "android_client_info": {
+          "package_name": "com.bangcodin.alldocumentreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943295219937-a7h2bvkk3anpukelsmep27skjne0s1pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCQa11KqQb2fNj-raxL6fMSgmdarkr3q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943295219937-a7h2bvkk3anpukelsmep27skjne0s1pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

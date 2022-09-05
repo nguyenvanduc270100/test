@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by Nguyễn Thành Vinh on 8/19/22, 10:22 AM
+  ~     ntvtht1204@gmail.com
+  ~     Last modified 8/19/22, 10:22 AM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_dialog"
+    android:padding="@dimen/_6sdp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_sort_by_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/animation_button_sort"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/container_sort_by_name">
+        <ImageView
+            android:id="@+id/iv_sort_by_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sort_by_date"
+            android:padding="@dimen/_8sdp"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintHorizontal_weight="1.4"
+            app:layout_constraintTop_toTopOf="@id/container_sort_by_date"
+            app:layout_constraintBottom_toBottomOf="@id/container_sort_by_date"
+            app:layout_constraintStart_toStartOf="@id/container_sort_by_date"
+            app:layout_constraintEnd_toStartOf="@id/tv_sort_by_date"
+            />
+        <TextView
+            android:id="@+id/tv_sort_by_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date update"
+            android:textSize="@dimen/_14ssp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_36sdp"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintTop_toTopOf="@id/iv_sort_by_date"
+            app:layout_constraintStart_toEndOf="@id/iv_sort_by_date"
+            app:layout_constraintBottom_toBottomOf="@id/iv_sort_by_date"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_sort_by_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/animation_button_sort"
+        app:layout_constraintTop_toBottomOf="@id/container_sort_by_date"
+        app:layout_constraintEnd_toEndOf="@id/container_sort_by_date"
+        app:layout_constraintStart_toStartOf="@id/container_sort_by_date"
+        app:layout_constraintBottom_toTopOf="@id/container_sort_by_name1">
+        <ImageView
+            android:id="@+id/iv_sort_by_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sort_by_name"
+            android:padding="@dimen/_8sdp"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintHorizontal_weight="1.5"
+            app:layout_constraintTop_toTopOf="@id/container_sort_by_name"
+            app:layout_constraintBottom_toBottomOf="@id/container_sort_by_name"
+            app:layout_constraintStart_toStartOf="@id/container_sort_by_name"
+            app:layout_constraintEnd_toStartOf="@id/tv_sort_by_name"
+            />
+        <TextView
+            android:id="@+id/tv_sort_by_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name A - Z"
+            android:textSize="@dimen/_14ssp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_36sdp"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintTop_toTopOf="@id/iv_sort_by_name"
+            app:layout_constraintStart_toEndOf="@id/iv_sort_by_name"
+            app:layout_constraintBottom_toBottomOf="@id/iv_sort_by_name"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_sort_by_name1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/animation_button_sort"
+        app:layout_constraintTop_toBottomOf="@id/container_sort_by_name"
+        app:layout_constraintEnd_toEndOf="@id/container_sort_by_date"
+        app:layout_constraintStart_toStartOf="@id/container_sort_by_date"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ImageView
+            android:id="@+id/iv_sort_by_name1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sort_by_name"
+            android:padding="@dimen/_8sdp"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintHorizontal_weight="1.5"
+            app:layout_constraintTop_toTopOf="@id/container_sort_by_name1"
+            app:layout_constraintBottom_toBottomOf="@id/container_sort_by_name1"
+            app:layout_constraintStart_toStartOf="@id/container_sort_by_name1"
+            app:layout_constraintEnd_toStartOf="@id/tv_sort_by_name1"
+            />
+        <TextView
+            android:id="@+id/tv_sort_by_name1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name Z - A"
+            android:textSize="@dimen/_14ssp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_36sdp"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintTop_toTopOf="@id/iv_sort_by_name1"
+            app:layout_constraintStart_toEndOf="@id/iv_sort_by_name1"
+            app:layout_constraintBottom_toBottomOf="@id/container_sort_by_name1"
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
